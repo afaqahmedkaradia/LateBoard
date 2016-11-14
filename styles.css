@@ -1,0 +1,78 @@
+#main-container {
+  position: absolute;
+  width: 316.116px;
+  height: 560.79px;
+}
+
+#menu {
+position: absolute;
+width: 316.116px;
+height: 440.79px;
+}
+
+#top-container {
+position: absolute;
+width: 100%;
+height: 120px;
+background-color: black;
+}
+
+#bottom-container {
+width: 100%;
+height: 440.79px;
+}
+
+#left-container {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+#right-container {
+float: right;
+width: 50%;
+height: auto;
+}
+
+#toilet {
+  background-color: black;
+  position: absolute;
+  top: 120px;
+  width: 158px;
+  height: 145px;
+}
+
+#home {
+  position: absolute;
+  margin-top: 120px;
+  width: 158px;
+  height: 145px;
+}
+
+#coffee {
+  position: absolute;
+  margin-top: 267px;
+  width: 158px;
+  height: 145px;
+}
+
+#richmond {
+  position: absolute;
+  margin-top: 267px;
+  width: 158px;
+  height: 145px;
+}
+
+#ttc {
+  position: absolute;
+  top: 410px;
+  width: 158px;
+  height: 145px;
+}
+
+#mccaul {
+  position: absolute;
+  top: 410px;
+  width: 50%;
+  height: 145px;
+}

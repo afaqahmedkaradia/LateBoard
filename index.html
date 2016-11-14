@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>serial communication with 6 led</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.serialport.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="http://cdn.pubnub.com/pubnub-3.16.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+
+  </head>
+  <body>
+
+    <script>
+    window.onload = function() {
+      click_handler();
+    };
+    </script>
+
+    <div id="main-container">
+      <div id="menu">
+
+        <div id="top-container">
+          <img src="top.jpg">
+        </div>
+
+        <div id="bottom-container">
+
+          <div id="left-container">
+            <div id="toilet"><img id="img-toilet" src="toilet.jpg"></div>
+            <div id="coffee"><img id="img-coffee" src="coffee.jpg"></div>
+            <div id="ttc"><img id="img-ttc" src="ttc.jpg"></div>
+            
+          </div>
+
+          <div id="right-container">
+            <div id="home"><img id="img-home" src="home.jpg"></div>
+            <div id="richmond"><img id="img-richmond" src="richmond.jpg"></div>
+            <div id="mccaul"><img id="img-mccaul" src="mccaul.jpg"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
